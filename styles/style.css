@@ -294,12 +294,11 @@ align-self: end;
 
 .content__list-item {
   display: block;
-  display: flex;
-  margin-bottom: 27px ;
+  margin-bottom: 30px ;
   padding: 3px;
 }
 
-.content__card-link_current {
+.content__card-link:has(.content__card-link_current:hover) {
   background-color: #545050;
 }
 
