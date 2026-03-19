@@ -230,7 +230,7 @@ button:focus-visible {
   align-self: end;
 }
 
-.content__details { 
+.content__details {
   height: 100%;
   width: 100%;
   display: flex;
@@ -247,7 +247,7 @@ button:focus-visible {
   line-height: 94%;
   letter-spacing: 0%;
   text-transform: uppercase; 
-  text-align: left; 
+  text-align: left;
 }
 
 .content__accent {
@@ -295,7 +295,7 @@ button:focus-visible {
   cursor: pointer;
 }
 
-.content__card-link:focus { 
+.content__card-link:focus {
   border: none;
 }
 
