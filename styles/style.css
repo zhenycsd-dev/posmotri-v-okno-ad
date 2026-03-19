@@ -13,13 +13,17 @@ html {
 
 .page {
   display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
-  margin: 0 auto;
+  margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  
+
 }
 
 h1,
@@ -53,17 +57,12 @@ ol {
 
 .content {
   width: 1140px;
-  height: 100%;
-  padding: 136px 0;
-  display: grid;
+  display: grid;  
   grid-template-areas: "result details";
-  grid-template-rows: 1fr 0.9fr;
-  grid-template-columns: 1fr 1.1fr;
+  grid-template-columns: 1fr auto;
   gap: 27px;
   align-items: end;
   justify-items: end;
-  place-self: center;
-  margin: 0 auto;
 }
 
 .result {
@@ -353,7 +352,6 @@ button:focus-visible {
   flex-direction: column;
   line-height: 100%;
 }
-
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
