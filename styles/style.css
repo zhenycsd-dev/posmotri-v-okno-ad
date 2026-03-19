@@ -59,7 +59,7 @@ ol {
   width: 1140px;
   display: grid;  
   grid-template-areas: "result details";
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr;
   gap: 27px;
   align-items: end;
   justify-items: end;
