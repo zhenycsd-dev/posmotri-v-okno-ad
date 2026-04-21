@@ -54,7 +54,7 @@ ol {
 
 .content {
   width: 1140px;
-  display: grid;  
+  display: grid;
   grid-template-areas: "result details";
   grid-template-columns: auto 1fr;
   gap: 27px;
@@ -154,7 +154,7 @@ ol {
 }
 
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
-  content: ""; 
+  content: "";
   background-color: #FFFFFF;
 }
 
@@ -181,7 +181,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   align-items: center;
   width: 19px;
   height: 19px;
-  border: 1px solid #FFFFFF; 
+  border: 1px solid #FFFFFF;
   margin-right: 5px;
 }
 
@@ -243,7 +243,7 @@ button:focus-visible {
   font-size: 75px;
   line-height: 94%;
   letter-spacing: 0%;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   text-align: left;
 }
 
